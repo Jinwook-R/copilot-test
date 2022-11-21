@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "macros",
+    [
+      "module-resolver",
+      {
+        "root": ["./"],
+        "alias": {
+          "@src": "./src"
+        }
+      }
+    ]
+  ],
+  "presets": [
+    /* Other presets */
+    "@emotion/babel-preset-css-prop" // @emotion/babel-preset-css-prop
+  ]
+}
